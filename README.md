@@ -17,6 +17,8 @@ $ pip install pyaair
 ## Examples
 
 ```Python
+import pyaair
+import json
 fromDir="miami"
 toDir="texas"
 airports1=pyaair.airports(fromDir,"")
@@ -30,6 +32,8 @@ f2.close()
 ```
 
 ```Python
+import pyaair
+import json
 originAirport = "GYE"
 destinationAirport = "MIA"
 departDate = "2024-05-01"
@@ -44,6 +48,8 @@ f2.close()
 ```
 
 ```Python
+import pyaair
+import json
 fromDir = "new york"
 toDir = "galapagos"
 departDate = "2024-05-01"
