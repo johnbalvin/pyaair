@@ -16,6 +16,7 @@ $ pip install pyaair
 ```
 ## Examples
 
+## Getting airports
 ```Python
 import pyaair
 import json
@@ -31,6 +32,7 @@ f2.write(json.dumps(airports2))
 f2.close()
 ```
 
+## Getting flights
 ```Python
 import pyaair
 import json
@@ -47,6 +49,7 @@ f2.write(json.dumps(flights))
 f2.close()
 ```
 
+## Usage combine
 ```Python
 import pyaair
 import json
